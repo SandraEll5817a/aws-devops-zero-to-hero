@@ -8,15 +8,15 @@ AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo in
 
 ## Progress Tracker
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| 1 | Introduction to AWS | ✅ Done |
-| 2 | IAM | ✅ Done |
-| 3 | EC2 Instances | 🔄 In Progress |
-| 4 | AWS Networking (VPC) | ⬜ Not Started |
-| 5 | AWS Security | ⬜ Not Started |
-| 6 | AWS Route 53 | ⬜ Not Started |
-| 7 | Secure VPC Setup | ⬜ Not Started |
+| Day | Topic | Status | Notes |
+|-----|-------|--------|-------|
+| 1 | Introduction to AWS | ✅ Done | |
+| 2 | IAM | ✅ Done | Revisit MFA setup |
+| 3 | EC2 Instances | ✅ Done | Deployed Jenkins successfully |
+| 4 | AWS Networking (VPC) | 🔄 In Progress | |
+| 5 | AWS Security | ⬜ Not Started | |
+| 6 | AWS Route 53 | ⬜ Not Started | |
+| 7 | Secure VPC Setup | ⬜ Not Started | |
 
 ## Day 1: Introduction to AWS
 
@@ -55,10 +55,4 @@ This day emphasizes security best practices in AWS. You'll learn how to implemen
     Set up public and private subnets.
     Configure route tables and associate subnets.
 
-- Implement network security:
-    Set up network access control lists (ACLs) to control inbound and outbound traffic.
-    Configure security groups for EC2 instances to allow specific ports and protocols.
-
-- Provision EC2 instances:
-    Launch EC2 instances in both the public and private subnets.
-    Configure security groups for the instan
+- Implement ne
