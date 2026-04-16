@@ -6,6 +6,18 @@ AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo in
 
 > **Personal note:** I'm following this course to prepare for the AWS Solutions Architect Associate exam. Tracking my progress day by day.
 
+## Progress Tracker
+
+| Day | Topic | Status |
+|-----|-------|--------|
+| 1 | Introduction to AWS | ✅ Done |
+| 2 | IAM | ✅ Done |
+| 3 | EC2 Instances | 🔄 In Progress |
+| 4 | AWS Networking (VPC) | ⬜ Not Started |
+| 5 | AWS Security | ⬜ Not Started |
+| 6 | AWS Route 53 | ⬜ Not Started |
+| 7 | Secure VPC Setup | ⬜ Not Started |
+
 ## Day 1: Introduction to AWS
 
 You will learn what is private and public cloud. Why companies are moving to public cloud, what are the advantages of moving to cloud.
@@ -49,8 +61,4 @@ This day emphasizes security best practices in AWS. You'll learn how to implemen
 
 - Provision EC2 instances:
     Launch EC2 instances in both the public and private subnets.
-    Configure security groups for the instances to allow necessary traffic.
-    Create and assign IAM roles to the instances with appropriate permissions.
-
-- Networking and routing:
-  
+    Configure security groups for the instan
