@@ -24,6 +24,8 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
+      # Log the image name for easier debugging in build logs
+      - echo "Image pushed: $DOCKER_REGISTRY_URL/$DOCKER_REGISTRY_USERNAME/simple-python-flask-app:latest"
 artifacts:
   files:
     - '**/*'
