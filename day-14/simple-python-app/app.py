@@ -16,4 +16,5 @@ def version():
 
 if __name__ == '__main__':
     # Disabled debug mode for safer local testing
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    # Using port 8080 to avoid conflicts with other local services
+    app.run(host='0.0.0.0', port=8080, debug=False)
